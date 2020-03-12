@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rrd SYSTEM "https://oss.oetiker.ch/rrdtool/rrdtool.dtd">
+<!-- Round Robin Database Dump -->
+<rrd>
+	<version>0003</version>
+	<step>60</step> <!-- Seconds -->
+	<lastupdate>1584005237</lastupdate> <!-- 2020-03-12 03:27:17 CST -->
+
+	<ds>
+		<name> CPU </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat>600</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>14</last_ds>
+		<value>2.2632499400e+02</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> RAM </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat>600</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>78.72972373590166</last_ds>
+		<value>1.3706307946e+03</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<ds>
+		<name> HDD </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat>600</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>14.133907318115234</last_ds>
+		<value>2.4609472272e+02</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<!-- Round Robin Archives -->
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>1</pdp_per_row> <!-- 60 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>1.4455455383e+01</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value>7.8739939247e+01</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+			<ds>
+			<primary_value>1.4135481744e+01</primary_value>
+			<secondary_value>0.0000000000e+00</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2020-03-12 03:04:00 CST / 1584003840 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:05:00 CST / 1584003900 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:06:00 CST / 1584003960 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:07:00 CST / 1584004020 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:08:00 CST / 1584004080 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:09:00 CST / 1584004140 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:10:00 CST / 1584004200 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:11:00 CST / 1584004260 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:12:00 CST / 1584004320 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:13:00 CST / 1584004380 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:14:00 CST / 1584004440 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:15:00 CST / 1584004500 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:16:00 CST / 1584004560 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:17:00 CST / 1584004620 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:18:00 CST / 1584004680 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:19:00 CST / 1584004740 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:20:00 CST / 1584004800 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:21:00 CST / 1584004860 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:22:00 CST / 1584004920 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:23:00 CST / 1584004980 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:24:00 CST / 1584005040 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:25:00 CST / 1584005100 --> <row><v>NaN</v><v>NaN</v><v>NaN</v></row>
+			<!-- 2020-03-12 03:26:00 CST / 1584005160 --> <row><v>7.2744671852e+00</v><v>7.8709256291e+01</v><v>1.4130752853e+01</v></row>
+			<!-- 2020-03-12 03:27:00 CST / 1584005220 --> <row><v>1.4455455383e+01</v><v>7.8739939247e+01</v><v>1.4135481744e+01</v></row>
+		</database>
+	</rra>
+</rrd>
